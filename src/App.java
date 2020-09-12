@@ -12,7 +12,7 @@ public class App {
         animals.add(new Animal("kangaroo", true, false));
         animals.add(new Animal("rabbit", true, false));
         animals.add(new Animal("turtle", false, true));
-        
+
         // with lambda we no longer need classes that implements CheckTrait
         print(animals,  a -> a.canHop()); // pass class that does check
         print(animals,  a -> a.canSwim()); // pass class that does check
