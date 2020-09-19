@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Test {
     public static void main(String[] args) {
-        float n = 1.2e3f;
+        int n = 1;
         System.out.println(n);
     }
 
